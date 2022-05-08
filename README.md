@@ -15,7 +15,9 @@ Preview Link: https://npquyngoc.github.io/C0322G1_Product_Management/Product_Man
 
 2. CSS (Cascading Style Sheets)
 > Interface settings
+
 > Layout settings
+
 > Background settings
 
 3. JavaScript
