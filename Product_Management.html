@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="Cores/Images/Favicon.jpg">
+    <link rel="stylesheet" href="Cores/Textures.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <title>Product Management</title>
+
+</head>
+
+<body>
+
+    <div class="Top-Navigate">
+
+        <div class="Top-Navigate_Title">
+
+            <h1>
+
+                <i class="bi bi-briefcase-fill"></i>
+                PRODUCT <span>MANAGEMENT</span>
+
+            </h1>
+
+        </div>
+
+        <div class="Top-Navigate_Search">
+
+            <input type="search" class="Product-Search" oninput="productSearch()" placeholder="Type here to search"></input>
+            <i class="bi bi-search"></i>
+
+        </div>
+
+    </div>
+
+    <div class="Middle-Navigate">
+
+        <div class="Middle-Navigate_Row1">
+
+            <h5>
+
+                <i class="bi bi-pencil-fill"></i>
+                NAME & IMAGE
+
+            </h5>
+
+            <input type="text" class="Product-Name" placeholder="Type here to set name"></input>
+            <input type="url" class="Product-Image" placeholder="Type here to set image"></input>
+
+        </div>
+
+        <div class="Middle-Navigate_Row2">
+
+            <h5>
+
+                <i class="bi bi-currency-exchange"></i>
+                QUANTITY & PRICE
+
+            </h5>
+
+            <input type="number" min="1" class="Product-Quantity" placeholder="Type here to set quantity"></input>
+            <input type="number" min="1" class="Product-Price" placeholder="Type here to set price"></input>
+
+        </div>
+
+        <div class="Middle-Navigate_Row3">
+
+            <h5>
+
+                <i class="bi bi-calendar2-week-fill"></i>
+                DATE & STATUS
+
+            </h5>
+
+            <input type="date" class="Product-Date"></input>
+
+            <select class="Product-Status">
+
+                <option value="Available">Available</option>
+                <option value="Unavailable">Unavailable</option>
+
+            </select>
+
+        </div>
+
+        <div class="Middle-Navigate_Create-Button">
+
+            <button type="button" onclick="productCreate()">
+
+                <i class="bi bi-bag-plus-fill"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="Bottom-Navigate">
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>
+
+                        <i class="bi bi-list-task"></i>
+
+                    </th>
+
+                    <th>NAME</th>
+                    <th>IMAGE</th>
+                    <th>QUANTITY</th>
+                    <th>PRICE</th>
+                    <th>AMOUNT</th>
+                    <th>DATE</th>
+                    <th>STATUS</th>
+                    <th>ACTION</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody class="Product-Display"></tbody>
+
+        </table>
+
+    </div>
+
+    <div class="Paginate-Navigate">
+
+        <h5 class="Paginate-Navigate_Title">
+
+            <i class="bi bi-stack"></i>
+            <span class="Product-Total"></span>
+
+        </h5>
+
+        <span class="Paginate-Display"></span>
+
+    </div>
+
+    <script src="Cores/Features.js"></script>
+
+</body>
+
+</html>

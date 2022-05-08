@@ -1,0 +1,237 @@
+body {
+
+    font-family: "Roboto", sans-serif;
+
+    background: url("Images/Background.jpg");
+
+}
+
+.Top-Navigate {
+
+    display: flex;
+    padding: 0px 20px;
+
+    color: white;
+    background: #303030;
+
+}
+
+.Top-Navigate_Title h1 {
+
+    cursor: default;
+
+}
+
+.Top-Navigate_Title i {
+
+    padding-right: 8px;
+
+}
+
+.Top-Navigate_Title span {
+
+    color: blueviolet;
+
+}
+
+.Top-Navigate_Search {
+
+    overflow: hidden;
+
+    margin-top: 26px;
+    margin-left: auto;
+
+}
+
+.Top-Navigate_Search input {
+
+    border: none;
+    outline: none;
+
+    width: 300px;
+    padding: 6px;
+    font-size: 15px;
+
+}
+
+.Top-Navigate_Search i {
+
+    background: darkgray;
+
+    padding: 6px 8px;
+    margin-left: -32px;
+
+}
+
+.Middle-Navigate {
+
+    padding: 30px 50px;
+
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+
+}
+
+.Middle-Navigate div {
+
+    display: flex;
+
+}
+
+.Middle-Navigate h5 {
+
+    cursor: default;
+
+    width: 180px;
+    margin: 14px;
+
+}
+
+.Middle-Navigate h5 i {
+
+    padding-right: 8px;
+
+}
+
+.Middle-Navigate input, select {
+
+    border: none;
+    outline: none;
+
+    flex: 1;
+    padding: 10px;
+    margin: 5px 4px;
+
+}
+
+.Middle-Navigate_Row3 input, select {
+
+    cursor: pointer;
+
+}
+
+.Middle-Navigate_Create-Button button {
+
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+
+    margin: 0px auto;
+    margin-top: 20px;
+
+    border: none;
+    border-radius: 12px;
+
+    color: white;
+    background: blueviolet;
+
+}
+
+.Middle-Navigate_Create-Button i {
+
+    font-size: 20px;
+
+}
+
+.Middle-Navigate_Create-Button button:hover {
+
+    opacity: 0.8;
+
+}
+
+.Middle-Navigate_Create-Button button:active {
+
+    opacity: 0.6;
+
+}
+
+.Bottom-Navigate {
+
+    display: flex;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.Bottom-Navigate table {
+
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.Bottom-Navigate thead {
+
+    cursor: default;
+    background: #303030;
+
+}
+
+.Bottom-Navigate th, td {
+
+    padding: 22px;
+
+}
+
+.Product-Display td {
+
+    text-align: center;
+    font-family: "Courier New";
+
+    background: rgba(0, 0, 0, 0.4);
+    border-top: 1.4px solid rgba(0, 0, 0, 0.4);
+
+}
+
+.Product-Display img {
+
+    width: 50px;
+    height: 80px;
+
+}
+
+.Product-Display_Action-Hidden {
+
+    display: none;
+
+}
+
+.Paginate-Navigate {
+
+    display: flex;
+    width: 100%;
+
+    color: white;
+    background: #303030;
+
+}
+
+.Paginate-Navigate_Title {
+
+    cursor: default;
+    padding-left: 30px;
+
+}
+
+.Paginate-Navigate_Title i {
+
+    padding-right: 8px;
+
+}
+
+.Paginate-Navigate_Title span {
+
+    color: slateblue;
+
+}
+
+.Paginate-Display {
+
+    position: relative;
+    top: 20px;
+    left: 1250px;
+
+}
