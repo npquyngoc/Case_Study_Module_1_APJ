@@ -144,11 +144,11 @@ function productRender(productData, paginateTotal) {
                 
                 <td class="Product-Display_Action-${product.productId}">
 
-                    <button type="button" class="" onclick="productEdit(${product.productId})">Edit</button>
+                    <button type="button" class="Product-Display_Edit-Button" onclick="productEdit(${product.productId})">Edit</button>
                     <button type="button" class="Product-Display_Action-Hidden" onclick="productUpdate(${product.productId})">Update</button>
                     <button type="button" class="Product-Display_Action-Hidden" onclick="productCancel(${product.productId})">Cancel</button>
-                    <button type="button" class="" onclick="productDelete(${product.productId})">Remove</button>
-                    
+                    <button type="button" class="Product-Display-Remove-Button" onclick="productDelete(${product.productId})">Remove</button>
+
                 </td>
 
             </tr>
@@ -315,11 +315,11 @@ function paginateRender(paginateSize, paginateTotal) {
 
         paginate.innerHTML += `
 
-            <div class="${paginateTotal == count ? "active" : ""}">
+            <span class="${paginateTotal == count ? "active" : ""}">
 
                 <button onclick="paginateBinding(${count})">${count}</button>
 
-            </div>
+            </span>
 
         `;
 
